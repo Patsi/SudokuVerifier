@@ -18,3 +18,8 @@ RefactoringAction 1474028640810 SudokuVerifierTest.java RENAME testCount0()=>voi
 RefactoringAction 1474028642337 SudokuVerifierTest.java RENAME test0()=>void testLeng0() METHOD
 RefactoringAction 1474028643355 SudokuVerifierTest.java RENAME testLeng0()=>void testLength0() METHOD
 EditAction 1474028669262 SudokuVerifierTest.java 633 2 4 1
+UnitTestCaseAction 1474028671791 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028671792 SudokuVerifierTest.testLength0 FAIL
+UnitTestCaseAction 1474028809395 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028809395 SudokuVerifierTest.java FAIL
+EditAction 1474028990413 SudokuVerifier.java 226 1 2 0
