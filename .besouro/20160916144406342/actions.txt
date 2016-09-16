@@ -62,3 +62,4 @@ RefactoringAction 1474030699754 SudokuVerifierTest.java RENAME testIncorrec()=>v
 RefactoringAction 1474030708271 SudokuVerifierTest.java RENAME testIncorrectRow()=>void testIncorectRow() METHOD
 RefactoringAction 1474030712287 SudokuVerifierTest.java RENAME testIncorectRow()=>void testIncorrectRow() METHOD
 EditAction 1474030847702 SudokuVerifier.java 454 1 1 0
+EditAction 1474030847780 SudokuVerifierTest.java 2080 6 16 5
