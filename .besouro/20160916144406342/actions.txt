@@ -41,3 +41,12 @@ RefactoringAction 1474029443992 SudokuVerifierTest.java RENAME testAll()=>void t
 RefactoringAction 1474029453516 SudokuVerifierTest.java RENAME testAllnumbers()=>void testAllnumbersTrue() METHOD
 EditAction 1474030047250 SudokuVerifier.java 439 1 1 0
 EditAction 1474030047315 SudokuVerifierTest.java 1717 5 13 4
+UnitTestCaseAction 1474030047678 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030047678 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474030064970 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030064971 SudokuVerifierTest.testAllnumbersTrue FAIL
+UnitTestCaseAction 1474030071425 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030071426 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474030095173 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030095174 SudokuVerifierTest.java FAIL
+EditAction 1474030373527 SudokuVerifier.java 461 1 1 0

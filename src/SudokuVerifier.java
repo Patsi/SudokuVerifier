@@ -9,7 +9,7 @@ public class SudokuVerifier {
 			return -1;
 		}
 		// returns -1 if the candidate solution does not  contain only numbers
-		else if (!candidateSolution.matches("\\d"))
+		else if (!candidateSolution.chars().allMatch(Character::isDigit))
 		{
 			return -1;
 		}
