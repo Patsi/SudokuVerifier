@@ -59,6 +59,24 @@ public class SudokuVerifierTest
 		
 		assertEquals(0, sudokuverifier.verify(candidateSolution));
 	}
+
+	@Test
+	public void testAllnumbersTrue() 
+	{
+		SudokuVerifier sudokuverifier = new SudokuVerifier();
+		String candidateSolution = ""
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789";
+		
+		assertEquals(0, sudokuverifier.verify(candidateSolution));
+	}
 	
 
 }

@@ -40,3 +40,4 @@ RefactoringAction 1474029441476 SudokuVerifierTest.java RENAME testA()=>void tes
 RefactoringAction 1474029443992 SudokuVerifierTest.java RENAME testAll()=>void testAllnumbers() METHOD
 RefactoringAction 1474029453516 SudokuVerifierTest.java RENAME testAllnumbers()=>void testAllnumbersTrue() METHOD
 EditAction 1474030047250 SudokuVerifier.java 439 1 1 0
+EditAction 1474030047315 SudokuVerifierTest.java 1717 5 13 4
