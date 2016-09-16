@@ -50,3 +50,15 @@ UnitTestSessionAction 1474030071426 SudokuVerifierTest.java FAIL
 UnitTestCaseAction 1474030095173 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474030095174 SudokuVerifierTest.java FAIL
 EditAction 1474030373527 SudokuVerifier.java 461 1 1 0
+UnitTestCaseAction 1474030373870 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030373870 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474030390572 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030390572 SudokuVerifierTest.java FAIL
+RefactoringAction 1474030632186 SudokuVerifierTest.java ADD void testAllnumbersTrue()/2 METHOD
+RefactoringAction 1474030692706 SudokuVerifierTest.java RENAME testAllnumbersTrue()/2=>void test() METHOD
+RefactoringAction 1474030696222 SudokuVerifierTest.java RENAME test()=>void testIncorrect() METHOD
+RefactoringAction 1474030697239 SudokuVerifierTest.java RENAME testIncorrect()=>void testIncorrec() METHOD
+RefactoringAction 1474030699754 SudokuVerifierTest.java RENAME testIncorrec()=>void testIncorrectRow() METHOD
+RefactoringAction 1474030708271 SudokuVerifierTest.java RENAME testIncorrectRow()=>void testIncorectRow() METHOD
+RefactoringAction 1474030712287 SudokuVerifierTest.java RENAME testIncorectRow()=>void testIncorrectRow() METHOD
+EditAction 1474030847702 SudokuVerifier.java 454 1 1 0
