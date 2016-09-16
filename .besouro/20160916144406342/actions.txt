@@ -1,0 +1,20 @@
+FileOpenedAction 1474026246592 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474026474942 SudokuVerifier.java 162 1 1 0
+FileOpenedAction 1474026717083 TennisGameTest.java 9188 25 172 22
+RefactoringAction 1474027474517 SudokuVerifierTest.java ADD import org IMPORT
+RefactoringAction 1474027475527 SudokuVerifierTest.java REMOVE import org IMPORT
+RefactoringAction 1474027477045 SudokuVerifierTest.java ADD import org.ha IMPORT
+RefactoringAction 1474027491068 SudokuVerifierTest.java RENAME import org.ha=>import org.ham IMPORT
+RefactoringAction 1474027493584 SudokuVerifierTest.java REMOVE import org.ham IMPORT
+RefactoringAction 1474027503624 SudokuVerifierTest.java ADD import org.hamcrest.Core IMPORT
+RefactoringAction 1474027507644 SudokuVerifierTest.java RENAME import org.hamcrest.Core=>import org.hamcrest.CoreMatchers IMPORT
+RefactoringAction 1474027510664 SudokuVerifierTest.java REMOVE import org.hamcrest.CoreMatchers IMPORT
+RefactoringAction 1474027512181 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
+RefactoringAction 1474027578767 SudokuVerifierTest.java ADD void testVerify()/2 METHOD
+RefactoringAction 1474028145981 SudokuVerifierTest.java RENAME testVerify()/2=>void test() METHOD
+RefactoringAction 1474028147998 SudokuVerifierTest.java RENAME test()=>void testCount() METHOD
+RefactoringAction 1474028594792 SudokuVerifierTest.java RENAME testCount()=>void testCount0() METHOD
+RefactoringAction 1474028640810 SudokuVerifierTest.java RENAME testCount0()=>void test0() METHOD
+RefactoringAction 1474028642337 SudokuVerifierTest.java RENAME test0()=>void testLeng0() METHOD
+RefactoringAction 1474028643355 SudokuVerifierTest.java RENAME testLeng0()=>void testLength0() METHOD
+EditAction 1474028669262 SudokuVerifierTest.java 633 2 4 1
