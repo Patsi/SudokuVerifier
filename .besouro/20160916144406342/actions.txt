@@ -73,3 +73,15 @@ RefactoringAction 1474031161503 SudokuVerifierTest.java ADD void testAllnumbersT
 RefactoringAction 1474031175933 SudokuVerifierTest.java RENAME testAllnumbersTrue()/2=>void testAllnumbers() METHOD
 RefactoringAction 1474031180582 SudokuVerifierTest.java RENAME testAllnumbers()=>void testAllnumbers0() METHOD
 EditAction 1474031199131 SudokuVerifierTest.java 2443 7 19 6
+UnitTestCaseAction 1474031199477 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031199477 SudokuVerifierTest.java FAIL
+RefactoringAction 1474032207035 SudokuVerifier.java ADD int che FIELD
+RefactoringAction 1474032208579 SudokuVerifier.java RENAME che=>int check FIELD
+RefactoringAction 1474032213212 SudokuVerifier.java RENAME check=>int check1 FIELD
+RefactoringAction 1474032214242 SudokuVerifier.java RENAME check1=>int check19 FIELD
+RefactoringAction 1474032393853 SudokuVerifier.java RENAME check19()=>int check19(String) METHOD
+RefactoringAction 1474032450481 SudokuVerifier.java REMOVE check19(String) METHOD
+RefactoringAction 1474032553722 SudokuVerifier.java ADD boolean testRow() METHOD
+RefactoringAction 1474033139800 SudokuVerifier.java RENAME testRow()=>boolean testRow(String) METHOD
+RefactoringAction 1474033948084 SudokuVerifier.java ADD boolean testColumn(String) METHOD
+EditAction 1474034654422 SudokuVerifier.java 1550 3 5 0
