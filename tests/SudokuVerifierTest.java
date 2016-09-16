@@ -23,5 +23,42 @@ public class SudokuVerifierTest
 		
 		assertEquals(-1, sudokuverifier.verify(candidateSolution));
 	}
+	
+	@Test
+	public void testLength80() 
+	{
+		SudokuVerifier sudokuverifier = new SudokuVerifier();
+		String candidateSolution = ""
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "12345678";
+		
+		assertEquals(-1, sudokuverifier.verify(candidateSolution));
+	}
+	
+	@Test
+	public void testLength81() 
+	{
+		SudokuVerifier sudokuverifier = new SudokuVerifier();
+		String candidateSolution = ""
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789";
+		
+		assertEquals(0, sudokuverifier.verify(candidateSolution));
+	}
+	
 
 }
