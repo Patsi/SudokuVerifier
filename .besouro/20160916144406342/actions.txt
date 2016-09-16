@@ -30,3 +30,13 @@ RefactoringAction 1474029028030 SudokuVerifierTest.java RENAME testLength0()/2=>
 RefactoringAction 1474029120254 SudokuVerifierTest.java ADD void testLength80()/2 METHOD
 RefactoringAction 1474029125271 SudokuVerifierTest.java RENAME testLength80()/2=>void testLength81() METHOD
 EditAction 1474029199421 SudokuVerifierTest.java 1353 4 10 3
+UnitTestCaseAction 1474029199736 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029199736 SudokuVerifierTest.java FAIL
+RefactoringAction 1474029422870 SudokuVerifierTest.java ADD void testLength81()/2 METHOD
+RefactoringAction 1474029436404 SudokuVerifierTest.java RENAME testLength81()/2=>void testL1() METHOD
+RefactoringAction 1474029437938 SudokuVerifierTest.java RENAME testL1()=>void testa1() METHOD
+RefactoringAction 1474029440459 SudokuVerifierTest.java RENAME testa1()=>void testA() METHOD
+RefactoringAction 1474029441476 SudokuVerifierTest.java RENAME testA()=>void testAll() METHOD
+RefactoringAction 1474029443992 SudokuVerifierTest.java RENAME testAll()=>void testAllnumbers() METHOD
+RefactoringAction 1474029453516 SudokuVerifierTest.java RENAME testAllnumbers()=>void testAllnumbersTrue() METHOD
+EditAction 1474030047250 SudokuVerifier.java 439 1 1 0
